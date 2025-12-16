@@ -120,6 +120,15 @@ Options:
 * `--download-threads` Number of parallel requests to speed up downloads.
 * `--overfetch` extra data to download to batch small requests: 0.05 is 5%.
 
+### merge
+
+```bash
+pmtiles merge INPUT_1.pmtiles INPUT_2.pmtiles OUTPUT.pmtiles
+pmtiles merge INPUT_1.pmtiles INPUT_2.pmtiles INPUT_3.pmtiles OUTPUT.pmtiles
+```
+
+Combine disjoint archives into a single archive. The output archive contains all tile data in the inputs. All inputs must be clustered and match in tile type and compression.
+
 ### serve
 
 The simplest way to consume PMTiles on the web is directly in the browser with [pmtiles.js along with a renderer-specific client](/pmtiles/maplibre). However, decoding PMTiles on the server and exposing a ZXY API works with more clients and can result in lower latency. A ZXY API is directly supported by web and native renderers such as [MapLibre](https://maplibre.org), without needing the PMTiles client library. Using `pmtiles serve` also allows serving a public API from a private storage bucket.
