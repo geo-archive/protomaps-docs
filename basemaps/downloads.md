@@ -29,8 +29,7 @@ A mirror in the AWS `us-west-2` is available on [Source Cooperative (beta)](http
 The daily builds bucket retains:
 
 * All builds for the past week.
-* Weekly monday builds for the past month.
-* The latest build for each version (major + minor + patch) beyond that.
+* The latest build for each patch version (e.g. `4.3.0`).
 
 ## Partial Downloads
 
