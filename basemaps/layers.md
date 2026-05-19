@@ -396,7 +396,7 @@ Example `network` values:
 
 | Value       |                        Sprite                       | Description                                                                                                  |
 | ----------- | :-------------------------------------------------: | ------------------------------------------------------------------------------------------------------------ |
-| `US`        |                                                     | United States [Numbered Highway System](https://en.wikipedia.org/wiki/United_States_Numbered_Highway_System) |
+| `US:US`     |                                                     | United States [Numbered Highway System](https://en.wikipedia.org/wiki/United_States_Numbered_Highway_System) |
 | `US:I`      |     <Icon kind="US:I-1char" :sprites="sprites"/>    | United States [Interstate Highway System](https://en.wikipedia.org/wiki/Interstate_Highway_System)           |
 | `NL:S-road` |  <Icon kind="NL:S-road-1char" :sprites="sprites"/>  | Dutch S-road network                                                                                         |
                                                                                      |
